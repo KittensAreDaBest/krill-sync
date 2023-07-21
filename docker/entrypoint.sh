@@ -7,7 +7,7 @@ RSYNC_DIR="${RSYNC_DIR:-$DATA/rsync}"
 STATE_DIR="${STATE_DIR:-$DATA/state}"
 exec /usr/local/bin/krill-sync \
     -v \
-    --source_uri_base ${SOURCE_URI_BASE} \ 
+    --source_uri_base ${SOURCE_URI_BASE} \
     --rrdp-dir ${RRDP_DIR} \
     --rsync-dir ${RSYNC_DIR} \
     --state-dir ${STATE_DIR} \
